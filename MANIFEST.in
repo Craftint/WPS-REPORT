@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include wps_report *.css
+recursive-include wps_report *.csv
+recursive-include wps_report *.html
+recursive-include wps_report *.ico
+recursive-include wps_report *.js
+recursive-include wps_report *.json
+recursive-include wps_report *.md
+recursive-include wps_report *.png
+recursive-include wps_report *.py
+recursive-include wps_report *.svg
+recursive-include wps_report *.txt
+recursive-exclude wps_report *.pyc
