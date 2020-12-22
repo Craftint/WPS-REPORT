@@ -123,11 +123,8 @@ function pad(n, len){
 
         return n
     }
-
-
-
-
 }
+
 function getFileName(){
         let year = new Date().getFullYear()-2000
         let day = new Date().getDate()

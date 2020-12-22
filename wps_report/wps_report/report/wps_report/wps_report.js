@@ -1,10 +1,10 @@
-// Copyright (c) 2016, Frappe and contributors
+// Copyright (c) 2016, Craft and contributors
 // For license information, please see license.txt
 /* eslint-disable */
 
 frappe.query_reports["WPS REPORT"] = {
 	"filters": [
-	{
+		{
 			"fieldname":"from_date",
 			"label": __("From"),
 			"fieldtype": "Date",
@@ -24,10 +24,15 @@ frappe.query_reports["WPS REPORT"] = {
 			"fieldtype":"Select",
 			"options":["Draft", "Submitted", "Cancelled"],
 			"default":"Submitted"
+		},
+		{
+			"fieldname":"company",
+			"label":__("Company Name"),
+			"fieldtype":"Link",
+			"options":"Company",
+			"default":"EMDAD TECHNICAL SERVICES COMPANY"
+
 		}
-		
-
-
 
 	],
 
@@ -50,4 +55,3 @@ frappe.query_reports["WPS REPORT"] = {
 	    });
 	}
 };
-
