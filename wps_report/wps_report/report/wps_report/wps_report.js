@@ -29,8 +29,7 @@ frappe.query_reports["WPS REPORT"] = {
 			"fieldname":"company",
 			"label":__("Company Name"),
 			"fieldtype":"Link",
-			"options":"Company",
-			"default":"EMDAD TECHNICAL SERVICES COMPANY"
+			"options":"Company"
 
 		}
 
